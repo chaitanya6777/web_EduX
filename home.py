@@ -21,12 +21,15 @@ def app():
 
         with left_column:
             st.header("What do we do?")
-            st.write("""Saideep is a driven individual with a keen intellect and a thirst for learning. 
-                     His dedication and perseverance make him a valuable asset in any endeavor he undertakes. 
-                     With a natural curiosity and a passion for excellence, Saideep continually seeks 
-                     opportunities for personal and professional growth. He approaches challenges with a 
-                     positive attitude and a willingness to innovate, inspiring those around him to strive 
-                     for greatness.""")
+            st.write("""The JEE and NEET Prep Hub is an innovative online platform tailored to the needs of students preparing for the 
+                     Joint Entrance Examination (JEE) and the National Eligibility cum Entrance Test (NEET). With an intuitive interface 
+                     and a plethora of resources, our website aims to empower aspiring engineers and medical professionals to excel in these 
+                     competitive exams. Students can access interactive learning modules covering all subjects, take practice tests 
+                     and mock exams, and benefit from personalized study plans based on their individual strengths and weaknesses. 
+                     Our platform also fosters community engagement through discussion forums and peer support groups, allowing students to 
+                     collaborate with others and share valuable insights and resources. With expert guidance from experienced educators and 
+                     timely updates on exam-related information, the JEE and NEET Prep Hub provides students with the tools they need to succeed 
+                     and realize their academic goals.""")
         with right_column:
             st_lottie(lottie_image, height=300, key="image")
 
