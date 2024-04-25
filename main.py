@@ -20,7 +20,7 @@ def run():
             options=['Home','Search','Contact Us','Resources'], 
             icons=['house-fill','search', 'chat-fill','message','pushpin'],  
             menu_icon='chat-text-fill',
-            default_index=1,
+            default_index=0,
             styles={
                 "container": {"padding": "5!important", "background-colour": 'black'},  
                 "icon": {"colour": "white", "font-size": "23px"},  
