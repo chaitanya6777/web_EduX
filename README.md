@@ -13,7 +13,7 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 ![Screenshot 2024-04-28 105653](https://github.com/chaitanya6777/web_EduX/assets/168096245/121d4d8a-e9fc-47b5-be2c-eecede626536)
 
 
-- You can actually find what we do and information regarding JEE and NEET to make it look more better we have added lottie files animation using streamlit_lottie
+- You can actually find what we do and information regarding JEE and NEET to make it look more better we have added lottie files animation using streamlit_lottie.
 - It also has some links to understand more about JEE and NEET.
 
 ### In the Account Page:
@@ -34,6 +34,13 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 
 - It is made using FormSubmit API, FormSubmit is a form backend, API and email service for HTML forms. It sends your site's form submission directly into your inbox.
 - The user can enter his name, email and message  here , EduX team will respond to their messages and reply them via email that they had provided during formsubmission.
+
+### In the Resources Page:
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/20bdffff-224f-4ef3-af3c-544002d8e3ef)
+
+
+- The user can find all the previous year's question papers various reference books etc. The people who created account will get additional resources and materials (Which are not provided in Resources)
+- One can easy download all the resouces in the resources page by simply clicking the download button.
   
   
 
