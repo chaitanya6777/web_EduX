@@ -6,7 +6,7 @@ from firebase_admin import auth
 
 
 
-cred = credentials.Certificate("edux-a2a95-07919a940ec6.json")
+cred = credentials.Certificate("YOUR_FILE.json")
 firebase_admin.initialize_app(cred)
 def app():
     st.title('Welcome to :violet[EduX] :books:')
