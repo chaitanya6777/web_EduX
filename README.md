@@ -42,5 +42,9 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 - The user can find all the previous year's question papers various reference books etc. The people who created account will get additional resources and materials (Which are not provided in Resources)
 - One can easy download all the resouces in the resources page by simply clicking the download button.
   
-  
+### In the Quiz Page:
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/6d939248-34d8-4bc8-9fa4-03a9a1329506)
 
+
+- User's can attempt the quiz , for that you need to press 'Start Quiz' button and enter your answers.
+- After you complete you can presss submit , then your score will be shown below, If you want to attempt again simply press 'Start Quiz' again.
