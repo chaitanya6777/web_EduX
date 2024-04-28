@@ -16,3 +16,10 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 - You can actually find what we do and information regarding JEE and NEET to make it look more better we have added lottie files animation using streamlit_lottie
 - It also has some links to understand more about JEE and NEET.
 
+### In the Account Page:
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/e2174f21-cb53-4484-82a2-6a06d884a8a1)
+
+- You have two options Login and Signup . Which creates an account for you with a username, usermail and password in firebase and stored the data.
+- Creating an account, gives you the regular updates through mails. Also additional materials and updates will be send to the user who have created the account.
+  
+
