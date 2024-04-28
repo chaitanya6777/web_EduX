@@ -61,4 +61,15 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 
 ### Usage:
 - One should have the requirements provided in requirements.txt file inorder to use this code.
-- 
+- Also you need to have a project .json file in Google Firebase inorder to store the users authentication data.
+- You need Google Generative Ai API key.
+
+### Additional Details:
+### One can install requirements by typing -pip install streamlit in the terminal.
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/93564229-caa0-4d25-92b1-13f89a34dbfa)
+
+
+### To run the code you need to type,  streamlit run main.py in the terminal.
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/4a189320-565f-453d-bbd0-de45c3b43b69)
+
+
