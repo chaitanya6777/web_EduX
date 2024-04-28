@@ -27,6 +27,13 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 
 - Search page works with Wikipedia API , whatever the topic the user want can simply search here it will show them the Title of the Topics and Summary.
 - Clicking the topic it directly takes us to wikipedia website where you can find more information regarding the topic.
+
+### In the Contact Us Page:
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/ac199126-3bbc-4e6c-ad20-cf5050c9c6ab)
+
+
+- It is made using FormSubmit API, FormSubmit is a form backend, API and email service for HTML forms. It sends your site's form submission directly into your inbox.
+- The user can enter his name, email and message  here , EduX team will respond to their messages and reply them via email that they had provided during formsubmission.
   
   
 
