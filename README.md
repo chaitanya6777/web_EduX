@@ -21,5 +21,12 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 
 - You have two options Login and Signup . Which creates an account for you with a username, usermail and password in firebase and stored the data.
 - Creating an account, gives you the regular updates through mails. Also additional materials and updates will be send to the user who have created the account.
+
+### In the Search Page:
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/3654573f-a799-4c84-9e42-f39f7da8fdc6)
+
+- Search page works with Wikipedia API , whatever the topic the user want can simply search here it will show them the Title of the Topics and Summary.
+- Clicking the topic it directly takes us to wikipedia website where you can find more information regarding the topic.
+  
   
 
