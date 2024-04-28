@@ -58,3 +58,7 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 - Ask Ai page is integrated with 'Google Gemini' , where users can ask their questions and doubt's to Ai.
 - It usually takes users questions to Ai and shows the answer in webpage.
 - It is also having search protection to avoid misusage of Ai.
+
+### Usage:
+- One should have the requirements provided in requirements.txt file inorder to use this code.
+- 
