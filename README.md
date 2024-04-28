@@ -48,3 +48,13 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 
 - User's can attempt the quiz , for that you need to press 'Start Quiz' button and enter your answers.
 - After you complete you can presss submit , then your score will be shown below, If you want to attempt again simply press 'Start Quiz' again.
+- Marking Scheme is for coorect answers +4 and wrong answers -1.
+
+### In the Ask Ai Page:
+![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/8b5108a4-d1c8-4720-ae12-9a0114d33809)
+
+
+
+- Ask Ai page is integrated with 'Google Gemini' , where users can ask their questions and doubt's to Ai.
+- It usually takes users questions to Ai and shows the answer in webpage.
+- It is also having search protection to avoid misusage of Ai.
