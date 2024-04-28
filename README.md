@@ -65,7 +65,7 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 - You need Google Generative Ai API key.
 
 ### Additional Details:
-### One can install requirements by typing -pip install streamlit in the terminal.
+### One can install requirements by typing -pip install nameoftherequirment (Eg: pip install streamlit) in the terminal.
 ![image](https://github.com/chaitanya6777/web_EduX/assets/168096245/93564229-caa0-4d25-92b1-13f89a34dbfa)
 
 
