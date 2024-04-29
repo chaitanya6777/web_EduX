@@ -6,10 +6,11 @@ from firebase_admin import auth
 
 
 
-cred = credentials.Certificate("YOUR_FILE.json")
+cred = credentials.Certificate("edux-a2a95-07919a940ec6.json")
 firebase_admin.initialize_app(cred)
 def app():
     st.title('Welcome to :violet[EduX] :books:')
+    st.write('Create an Account to get Regular Updates ✅')
 
     if 'username' not in st.session_state:
         st.session_state.username = ''
@@ -62,3 +63,6 @@ def app():
                 st.text('Name '+st.session_state.username)
                 st.text('Email id: '+st.session_state.useremail)
                 st.button('Sign out', on_click=t)
+
+
+
