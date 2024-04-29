@@ -41,7 +41,7 @@ def app():
             st.image(img_iit)
             st.subheader("Here are details for JEE")
             st.write("Watch this to learn more")
-            st.markdown("[Watch Video](https://youtube.com)")
+            st.markdown("[Watch Video](https://www.youtube.com/@JEEVedantu)")
 
         with text_column:
             st.image(img_neet)
