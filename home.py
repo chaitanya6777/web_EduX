@@ -11,7 +11,7 @@ def app():
         st.subheader("Hi, This is Team :violet[EduX] ❤️ from IIT Palakkad")
         st.title("A platform where you can prepare for JEE")
         st.write("Here you can find a lot of useful information for competitive exams like JEE")
-        st.write("[Learn More](https://google.com)")
+        st.write("[Learn More](https://jeemain.nta.ac.in/)")
 
     with st.container():
         st.write("--")
