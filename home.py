@@ -47,4 +47,4 @@ def app():
             st.image(img_neet)
             st.subheader("Here are details for NEET")
             st.write("Watch this to learn more")
-            st.markdown("[Watch Video](https://youtube.com)")
+            st.markdown("[Watch Video](https://www.youtube.com/@UnacademyNEET)")
