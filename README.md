@@ -1,7 +1,6 @@
 ### EduX:  Is a educational website designed for the preparation for competitive exams like JEE and NEET.
 Edux currently provides you the follwing features:
 - Home Page
-- Account
 - Search
 - Resources
 - Quiz
@@ -13,17 +12,13 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 - You can actually find what we do and information regarding JEE and NEET to make it look more better we have added lottie files animation using streamlit_lottie.
 - It also has some links to understand more about JEE and NEET.
 
-### In the Account Page:
-- You have two options Login and Signup . Which creates an account for you with a username, usermail and password in firebase and stored the data.
-- Creating an account, gives you the regular updates through mails. Also additional materials and updates will be send to the user who have created the account.
 
 ### In the Search Page:
 - Search page works with Wikipedia API , whatever the topic the user want can simply search here it will show them the Title of the Topics and Summary.
 - Clicking the topic it directly takes us to wikipedia website where you can find more information regarding the topic.
 
 ### In the Contact Us Page:
-- It is made using FormSubmit API, FormSubmit is a form backend, API and email service for HTML forms. It sends your site's form submission directly into your inbox.
-- The user can enter his name, email and message  here , EduX team will respond to their messages and reply them via email that they had provided during formsubmission.
+- It has information about the developers
 
 ### In the Resources Page:
 - The user can find all the previous year's question papers various reference books etc. The people who created account will get additional resources and materials (Which are not provided in Resources)
@@ -41,8 +36,7 @@ EduX is developed using Streamlit and Python . To provide a user friendly interf
 
 ### Usage:
 - One should have the requirements provided in requirements.txt file inorder to use this code.
-- Also you need to have a project .json file in Google Firebase inorder to store the users authentication data.
-- You need Google Generative Ai API key.
+
 
 ### Additional Details:
 ### One can install requirements by typing -pip install nameoftherequirment (Eg: pip install streamlit) in the terminal.
