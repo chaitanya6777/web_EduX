@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-import home, search, resources, quiz, chatbot
+import home, search, resources, quiz, chatbot,contact
 
 st.set_page_config(page_title="EduX", page_icon="🇮🇳", layout="wide")
 
@@ -34,7 +34,7 @@ def run():
     elif app == "Search":
         search.app()
     elif app == 'Contact Us':
-        random.app()
+        contact.app()
     elif app == "Resources":
         resources.app()
     elif app == "Quiz":
