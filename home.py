@@ -33,18 +33,21 @@ def app():
         with right_column:
             st_lottie(lottie_image, height=300, key="image")
 
-    with st.container():
-        st.write("--")
-        st.header("Resources")
-        image_column, text_column = st.columns((1, 2))
+   with st.container():
+        st.write("---")
+        st.header("More")
+        columns=st.columns(2)
+        image_column=columns[0]
+        text_column=columns[1]
         with image_column:
             st.image(img_iit)
             st.subheader("Here are details for JEE")
-            st.write("Watch this to learn more")
-            st.markdown("[Watch Video](https://www.youtube.com/@JEEVedantu)")
+            st.write("Watch this for JEE preparation")
+            st.write("[Watch Video](https://www.youtube.com/@JEEVedantu)")
 
         with text_column:
             st.image(img_neet)
             st.subheader("Here are details for NEET")
-            st.write("Watch this to learn more")
+            st.write("Watch this for NEET preparation")
             st.write("[Watch Video](https://www.youtube.com/@UnacademyNEET)")
+
