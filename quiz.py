@@ -12,7 +12,7 @@ def read_questions(file_path):
     return questions, answers
 
 def select_fixed_questions(questions, answers, num_questions):
-    # Selecting a fixed number of questions from the given pool
+    # Selecting a fixed number of questions from the given lists
     selected_indices = random.sample(range(len(questions)), num_questions)
     selected_questions = [questions[i] for i in selected_indices]
     selected_answers = [answers[i] for i in selected_indices]
