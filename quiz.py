@@ -13,7 +13,7 @@ def read_questions(file_path):
 
 def select_fixed_questions(questions, answers, num_questions):
     # Selecting a fixed number of questions from the given lists
-    selected_indices = random.sample(range(len(questions)), num_questions)
+    selected_indices = random.sample(range(len(questions)), num_questions)#creating a list of indices whose length is num_questions
     selected_questions = [questions[i] for i in selected_indices]
     selected_answers = [answers[i] for i in selected_indices]
     return selected_questions, selected_answers
@@ -25,7 +25,7 @@ def app():
     st.title("Quiz Time!")
     st.write("Welcome to the Quiz.")
     
-    # Specify the file path here
+    # assigning file name to file_path here
     file_path = "demo.txt"
     all_questions, all_answers = read_questions(file_path)
     
