@@ -14,7 +14,7 @@ def app():
         st.write("[Learn More](https://jeemain.nta.ac.in/)")
 
     with st.container():
-        st.write("--")
+        st.write("---")
         columns = st.columns(2)
         left_column = columns[0]
         right_column = columns[1]
