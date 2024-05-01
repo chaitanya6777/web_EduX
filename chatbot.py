@@ -1,10 +1,8 @@
 import streamlit as st
 import google.generativeai as genai
 
-# Configure API key
 genai.configure(api_key="YOUR_API_KEY")
 
-# Set up the model and generation config
 generation_config = {
     "temperature": 1,
     "top_p": 0.95,
@@ -25,21 +23,14 @@ model = genai.GenerativeModel(
     safety_settings=safety_settings,
 )
 
-# Streamlit app
 def app():
     st.title(":orange[AI] Chatbot :robot_face:")
-
-    # Input question from user
     user_question = st.text_input("Ask a question:")
 
-    # Initialize conversation
     convo = model.start_chat(history=[])
-
-    # Process user input and display response
     if st.button("Send"):
         if user_question:
             try:
-                # Send user's question to the model
                 response = convo.send_message(user_question)
                 st.write("Bot:", response.text)
             except genai.exceptions.StopCandidateException as e:
